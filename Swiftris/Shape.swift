@@ -21,7 +21,7 @@ enum Orientation: Int, Printable {
         case .Ninety:
             return "90"
             
-        case .Oneeighty:
+        case .OneEighty:
             return "180"
             
         case .TwoSeventy:
@@ -91,7 +91,7 @@ class Shape: Hashable, Printable {
     var hashValue:Int {
         
 // #4
-        return reduce(blocks, 0) { $0.hashvalue ^ $1.hashValue }
+        return reduce(blocks, 0) { $0.hashValue ^ $1.hashValue }
     }
     
     // Printable
@@ -119,6 +119,7 @@ class Shape: Hashable, Printable {
         if let blockRowColumnTranslations = blockRowColumnPositions[orientation] {
             for i in 0..<blockRowColumnTranslations.count {
                 let blockRow = row + blockRowColumnTranslations[i].rowDiff
+                let blockColumn = column + blockRowColumnTranslations[i].columnDiff
                 let newBlock = Block(column: blockColumn, row: blockRow, color: color)
                 blocks.append(newBlock)
             }
