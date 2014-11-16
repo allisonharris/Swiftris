@@ -19,13 +19,13 @@ class SqureSahpe:Shape {
     // The squre shape will not rotate
 
 // #2
-    override bar blockRowColumnPositions: [Orientation: Array<(columnDiff: int, rowDiff: Int)>] {
-    return [
-    Orientation.Zero: [(0, 0), (1, 0), (0, 1), (1, 1)],
-    Orientation.OneEighty [(0, 0), (1, 0), (0, 1), (1, 1)],
-    Orientation.Ninety [(0, 0), (1, 0), (0, 1), (1, 1)],
-    Orientation.TwoSeventy [(0, 0), (1, 0), (0, 1), (1, 1)]
-    ]
+    override var blockRowColumnPositions: [Orientation: Array<(columnDiff: Int, rowDiff: Int)>] {
+        return [
+            Orientation.Zero: [(0, 0), (1, 0), (0, 1), (1, 1)],
+            Orientation.OneEighty: [(0, 0), (1, 0), (0, 1), (1, 1)],
+            Orientation.Ninety: [(0, 0), (1, 0), (0, 1), (1, 1)],
+            Orientation.TwoSeventy: [(0, 0), (1, 0), (0, 1), (1, 1)]
+        ]
 }
 
 // #3
