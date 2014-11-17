@@ -83,6 +83,5 @@ class Block: Hashable, Printable {
 
 // #7
 func ==(lhs: Block, rhs: Block) -> Bool {
-    return lhs.column == rhs.column && lhs.row == rhs.row && lhs.color.rawValue ==rhs.color.rawValue
-}
+    return lhs.column == rhs.column && lhs.row == rhs.row && lhs.color.rawValue == rhs.color.rawValue
 }
