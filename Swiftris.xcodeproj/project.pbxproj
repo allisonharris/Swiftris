@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F15A6BB71A18FC8D008D338F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A6BB61A18FC8D008D338F /* Block.swift */; };
+		F171842F1A1FE055001FFECE /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171842E1A1FE055001FFECE /* Swiftris.swift */; };
 		F17DF2AA1A17C1C100B36D2F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DF2A91A17C1C100B36D2F /* Array2D.swift */; };
 		F19190D91A16BC3700F2E7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19190D81A16BC3700F2E7AC /* AppDelegate.swift */; };
 		F19190DD1A16BC3700F2E7AC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19190DC1A16BC3700F2E7AC /* GameScene.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		F15A6BB61A18FC8D008D338F /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		F171842E1A1FE055001FFECE /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		F17DF2A91A17C1C100B36D2F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		F19190D31A16BC3600F2E7AC /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19190D71A16BC3600F2E7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				F1F74A331A1AD2B400B8B0E0 /* JShape.swift */,
 				F1F74A351A1AD2EA00B8B0E0 /* SShape.swift */,
 				F1F74A371A1AD30500B8B0E0 /* ZShape.swift */,
+				F171842E1A1FE055001FFECE /* Swiftris.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				F1F770001A195CFA00DC8C7A /* SquareShape.swift in Sources */,
 				F19190DD1A16BC3700F2E7AC /* GameScene.swift in Sources */,
 				F1F74A341A1AD2B400B8B0E0 /* JShape.swift in Sources */,
+				F171842F1A1FE055001FFECE /* Swiftris.swift in Sources */,
 				F1F76FFE1A194E5200DC8C7A /* Shape.swift in Sources */,
 				F17DF2AA1A17C1C100B36D2F /* Array2D.swift in Sources */,
 				F1F74A301A1ABD5D00B8B0E0 /* LineShape.swift in Sources */,
